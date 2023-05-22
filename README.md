@@ -22,15 +22,13 @@
 
 ## Process for Setting up Ansible
 ### Ensure pip is avaliable
-> User what ever variation of Python works for you e.g. (python, python3).
+> User what ever variation of Python works for you e.g. (python, python3, py).
 ```python
 $ python -m pip -V
 ```
 
 ### Make sure python3 is set up
 ```Python
-$ python -m pip install --user ansible
+$ python -m pip install ansible
 $ python -m pip install --upgrade --user ansible
-#Test to see if it's worked
-$ python --version
 ```
