@@ -1,0 +1,37 @@
+---
+# This is all from CHATGPT
+- name: Install software
+  hosts: localhost
+  become: yes
+
+  tasks:
+    - name: Install Steam
+      win_chocolatey:
+        name: steam
+        state: present
+
+    - name: Install Firefox
+      win_chocolatey:
+        name: firefox
+        state: present
+
+    - name: Install Firefox ad blocker plugin (uBlock Origin)
+      win_shell: Start-Process -Wait "firefox https://addons.mozilla.org/firefox/downloads/file/ublock_origin-1.35.2-an+fx.xpi"
+
+    - name: Install GeForce Experience
+      win_shell: Start-BitsTransfer -Source "https://download.nvidia.com/GFE/GFEClient/3.25.0.126/GeForce_Experience_v3.25.0.126.exe" -Destination "$env:TEMP\GeForce_Experience_v3.25.0.126.exe"; Start-Process -Wait "$env:TEMP\GeForce_Experience_v3.25.0.126.exe"
+
+    - name: Install Epic Games
+      win_shell: Start-BitsTransfer -Source "https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi" -Destination "$env:TEMP\EpicGamesLauncherInstaller.msi"; Start-Process -Wait "msiexec.exe" -ArgumentList "/i $env:TEMP\EpicGamesLauncherInstaller.msi /qn"
+
+    - name: Install Uplay
+      win_shell: Start-BitsTransfer -Source "https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UplayInstaller.exe" -Destination "$env:TEMP\UplayInstaller.exe"; Start-Process -Wait "$env:TEMP\UplayInstaller.exe"
+
+    - name: Install EA Play
+      win_shell: Start-BitsTransfer -Source "https://eaassets-a.akamaihd.net/eahelp/manuals/ea-play-desktop-latest-setup.exe" -Destination "$env:TEMP\ea-play-desktop-latest-setup.exe"; Start-Process -Wait "$env:TEMP\ea-play-desktop-latest-setup.exe"
+
+    - name: Install Yuzu
+      win_shell: Start-BitsTransfer -Source "https://github.com/yuzu-emu/yuzu-mainline/releases/download/mainline/yuzu-windows-msvc-20210522-2f9b1bde9.zip" -Destination "$env:TEMP\yuzu-windows-msvc-20210522-2f9b1bde9.zip"; Expand-Archive -Path "$env:TEMP\yuzu-windows-msvc-20210522-2f9b1bde9.zip" -DestinationPath "C:\yuzu"
+
+    - name: Install GOG
+      win_shell: Start-BitsTransfer -Source "https://gogcdn.net/pub/launcher/installer/GOGGalaxyInstaller.exe" -Destination "$env:TEMP\GOGGalaxyInstaller.exe"; Start-Process -Wait "$env:TEMP\GOGGalaxyInstaller.exe"
