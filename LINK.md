@@ -2,7 +2,7 @@
 | --- | --- |
 | `Visual Studio Code` | https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user |
 | `Steam` | https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe |
-| `Epic Games -` https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi
+| `Epic Games` | https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi
 | `EA Play` | https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe |
 | `Uplay` | https://ubi.li/4vxt9 |
 | `Battle.net` | https://www.battle.net/download/getInstallerForGame?os=win&gameProgram=BATTLENET_APP&version=Live |
