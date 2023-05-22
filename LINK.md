@@ -12,7 +12,7 @@
 
 `Rockstar Launcher -` https://gamedownloads.rockstargames.com/public/installer/Rockstar-Games-Launcher.exe
 
-`Spotify -`
+`Spotify -` https://download.scdn.co/SpotifySetup.exe
 
 `Firefox -` https://download.mozilla.org/?product=firefox-stub&os=win&lang=en-US&attribution_code=c291cmNlPXd3dy5nb29nbGUuY29tJm1lZGl1bT1yZWZlcnJhbCZjYW1wYWlnbj0obm90IHNldCkmY29udGVudD0obm90IHNldCkmZXhwZXJpbWVudD0obm90IHNldCkmdmFyaWF0aW9uPShub3Qgc2V0KSZ1YT1jaHJvbWUmY2xpZW50X2lkPShub3Qgc2V0KSZzZXNzaW9uX2lkPShub3Qgc2V0KSZkbHNvdXJjZT1tb3pvcmc.&attribution_sig=8050a714514346fdc6eb8a04a5cf8bad6805f8964fec63b63a8e91e7962fa0f7
 
