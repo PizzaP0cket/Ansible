@@ -1,6 +1,8 @@
 >Updated 5/22/2023
-| Application | Link |
-| --- | --- |
+| Application | Link | Working |
+| --- | --- | --- |
+| test | test | test |
+
 | `Visual Studio Code` | https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user |
 | `Steam` | https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe |
 | `Epic Games -` https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi
