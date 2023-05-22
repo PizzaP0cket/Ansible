@@ -1,6 +1,6 @@
 # Ansible
 
-### H3 List of Programs to Automate accross
+### List of Programs to Automate accross
 
 | Application         | Pass | Fail |
 | ------------------- | ---- | ---- |
