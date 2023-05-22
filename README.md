@@ -1,7 +1,4 @@
 # Ansible
-This is where I will store my Ansible code
-
-Currently trying to learn everything I can about Ymal
 
 ### H3 List of Programs to Automate accross
 
