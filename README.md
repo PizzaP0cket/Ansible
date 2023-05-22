@@ -28,6 +28,8 @@ $ python -m pip -V
 ```
 
 ### Make sure python3 is set up
+>Might be worth adding directory to PATH before running this command
+>C:\Users\`User`\AppData\Local\Programs\Python\Python311\Scripts
 ```Python
 $ python -m pip install ansible
 $ python -m pip install --upgrade --user ansible
