@@ -20,7 +20,7 @@
 
 `Firefox (AdBlock) -`
 
-`Yuzu` | https://github.com/yuzu-emu/yuzu-mainline/archive/refs/heads/master.zip
+`Yuzu -` https://github.com/yuzu-emu/yuzu-mainline/archive/refs/heads/master.zip
 
 `Geforce Experience -` https://us.download.nvidia.com/GFE/GFEClient/3.27.0.112/GeForce_Experience_v3.27.0.112.exe
 
