@@ -4,7 +4,7 @@
 
 | Application         | Pass | Fail |
 | ------------------- | ---- | ---- |
-| Visual Studio Code  |      |      |
+| Visual Studio Code  |      | - ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png)     |
 | Steam               |      |      |
 | Epic Games          |      |      |
 | EA Play             |      |      |
