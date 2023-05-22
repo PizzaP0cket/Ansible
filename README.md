@@ -19,6 +19,7 @@
 | Yuzu                |      |      |
 | Geforce Experience  |      |      |
 | Geforce Broadcast   |      |      |
+<<<<<<< HEAD
 
 ## Process for Setting up Ansible
 ### Ensure pip is avaliable
@@ -35,3 +36,5 @@ $ python -m pip install --upgrade --user ansible
 $ python --version
 ```
 
+=======
+>>>>>>> 2d8cb0c1e7a22d00346fea6d3115d76b7d2dbefc
