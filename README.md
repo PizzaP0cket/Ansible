@@ -21,7 +21,7 @@
 | Geforce Broadcast   |      |      |
 
 ## Process for Setting up Ansible
-### Ensure pip is avaliable
+### Ensure pip is installed
 > User what ever variation of Python works for you e.g. (python, python3, py).
 ```python
 $ python -m pip -V
@@ -29,7 +29,7 @@ $ python -m pip -V
 
 ### Make sure python3 is set up
 >Might be worth adding directory to PATH before running this command
->C:\Users\`User`\AppData\Local\Programs\Python\Python311\Scripts
+>C:\Users\...\AppData\Local\Programs\Python\Python311\Scripts
 ```Python
 $ python -m pip install ansible
 $ python -m pip install --upgrade --user ansible
