@@ -20,13 +20,6 @@
 | Geforce Experience  |      |      |
 | Geforce Broadcast   |      |      |
 
-
-```md
-Yuzu- https://github.com/yuzu-emu/yuzu-mainline/archive/refs/heads/master.zip
-```
-
-
-
 ## Process for Setting up Ansible
 ### Ensure pip is installed
 > User what ever variation of Python works for you e.g. (python, python3, py).
