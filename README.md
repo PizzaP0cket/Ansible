@@ -1,10 +1,10 @@
 # Ansible
 
-## List of Programs to Automate accross
+## List of Programs to Auto Install
 
-| Application           | Pass | Fail |
-| --------------------- | ---- | ---- |
-| Test Color            | ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) | ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) |
+| Application           | Pass | Fail |   | Application           | Pass | Fail |
+| --------------------- | ---- | ---- |   | --------------------- | ---- | ---- |
+| Test Color            | ![#c5f015](https://placehold.co/15x15/c5f015/c5f015.png) | ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) |   | Dsiney+     |      |      |
 | Visual Studio Code    |      |      |
 | Steam                 |      |      |
 | Epic Games            |      |      |
@@ -22,6 +22,14 @@
 | Yuzu                  |      |      |
 | Geforce Experience    |      |      |
 | Geforce Broadcast     |      |      |
+| OBS                   |      |      |
+| Paint.net             |      |      |
+
+## List of Programs to Auto Uninstall
+
+| Application | Pass | Fail |
+| Dsiney+     |      |      |
+
 
 ## Process for Setting up Ansible
 ### Ensure pip is installed
