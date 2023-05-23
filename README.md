@@ -25,7 +25,7 @@
 | OBS                    |      |      |
 | Paint.net              |      |      |
 
-> Add any applications that windows isntalls by default.
+> Add any applications that windows installs by default.
 
 | Application to uninstall | Pass | Fail |
 | ------------------------ | ---- | ---- |
